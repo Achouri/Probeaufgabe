@@ -1,0 +1,53 @@
+{
+  "name": "Alaedine Achouri",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "start-dev": "nodemon server.js",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@trapcode/browser-storage": "^0.0.7",
+    "@xpresser/env": "^1.0.3",
+    "abolish": "^0.0.20",
+    "axios": "^0.20.0",
+    "base64-img": "^1.0.4",
+    "core-js": "^3.6.5",
+    "dotenv": "^8.0.0",
+    "lowdb": "^1.0.0",
+    "register-service-worker": "^1.6.2",
+    "slash": "^3.0.0",
+    "vue": "^2.6.10",
+    "vue-prism-editor": "0.2.1",
+    "vue-router": "^3.0.3",
+    "vue-trap-pack": "^0.0.37",
+    "xpresser": "^0.12.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.8",
+    "@vue/cli-plugin-eslint": "^4.5.8",
+    "@vue/cli-service": "^4.5.8",
+    "babel-eslint": "^10.0.1",
+    "bulma": "^0.9.1",
+    "eslint": "^7.11.0",
+    "eslint-plugin-vue": "^7.1.0",
+    "node-sass": "^4.14.1",
+    "prismjs": "^1.22.0",
+    "sass-loader": "^10.0.3",
+    "shred-bootstrap": "^1.0.2",
+    "vue-izitoast": "^1.2.1",
+    "vue-template-compiler": "^2.6.12",
+    "vuex": "^3.5.1"
+  },
+  "description": "A file manager built using xpresser and vue cli",
+  "main": "server.js",
+  "repository": "https://github.com/Achouri/probeaufgabe.git",
+  "author": "Alaeddine Achouri",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  }
+}
